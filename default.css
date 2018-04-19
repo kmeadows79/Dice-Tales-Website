@@ -1,8 +1,35 @@
+body {
+	font-family: 'Raleway';
+	color: #055e8e;
+}
+
 .navbar {
 	background: #055e8e;
 }
 
-h1 {
+#title-block {
+	background-color: #d4dadd;
+}
+
+.jumbotron {
 	text-align: center;
-	color: #055e8e;
+	/*background-color: #d3e4ed;*/
+	background-color: #d4dadd;
+}
+
+.game-system-frame {
+	padding: 0px;
+}
+
+.game-system {
+	text-align: center;
+	border:	solid 1px #055e8e;
+	margin: 10px;
+	padding: 10px;
+	height: 150px;
+}
+
+.btn {
+	background-color: #055e8e;
+	border-color: #055e8e;
 }
